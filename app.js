@@ -11,7 +11,9 @@ const MongoStore = require("connect-mongo")(session);
 const connectDB = require("./config/db");
 
 // Load Config
-dotenv.config({ path: "./config/config.env" });
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config({ path: "./config/config.env" });
+}
 
 // Passport Config
 require("./config/passport")(passport);
