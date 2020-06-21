@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=developement nodemon app",
-    "heroku-postbuild": "NODE_ENV=production npm install && cross-env node app"
+    "dev": "cross-env NODE_ENV=developement nodemon app"
   },
   "repository": {
     "type": "git",
