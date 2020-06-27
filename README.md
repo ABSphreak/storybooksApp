@@ -30,6 +30,7 @@ Check demo at [DEMO](https://abs-storybook.herokuapp.com/)
 - Run in production mode: `npm run start`
 
 ## Sources and Links
-- [Google OAuth2 API](https://developers.google.com/identity/protocols/oauth2)
-- [PassportJS Oauth2 Strategy](http://www.passportjs.org/docs/oauth2-api/)
-- [Traversy Media Video](https://www.youtube.com/watch?v=SBvmnHTQIPY)
+- [Google OAuth2 API](https://developers.google.com/identity/protocols/oauth2) - Google's Blog
+- [PassportJS Oauth2 Strategy](http://www.passportjs.org/docs/oauth2-api/) - Passport JS Strategies
+- [Materialize CSS](https://materializecss.com/getting-started.html) - CSS Library used
+- [Traversy Media Video](https://www.youtube.com/watch?v=SBvmnHTQIPY) - YouTube video about the project
