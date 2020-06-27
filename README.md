@@ -1,7 +1,7 @@
 # StoryBooks App
 
 A place to share your public and private stories.
-
+Check demo at (DEMO)[https://abs-storybook.herokuapp.com/]
 ### Dependencies
 
 - connect-mongo
