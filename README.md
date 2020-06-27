@@ -2,7 +2,7 @@
 
 A place to share your public and private stories.<br>
 Check demo at [DEMO](https://abs-storybook.herokuapp.com/)
-### Dependencies
+## Dependencies
 
 - [connect-mongo](https://npmjs.com/package/connect-mongo)
 - [dotenv](https://npmjs.com/package/dotenv)
@@ -17,3 +17,19 @@ Check demo at [DEMO](https://abs-storybook.herokuapp.com/)
 - [passport-google-oauth20](https://npmjs.com/package/passport-google-oauth20)
 - [cross-env](https://npmjs.com/package/cross-env)
 - [nodemon](https://npmjs.com/package/nodemon)
+
+## Running the project
+- Clone the repository
+- Add your environment variables in `config/config.env`
+  - `PORT`
+  - `MONGO_URI`
+  - `GOOGLE_CLIENT_ID`
+  - `GOOGLE_CLIENT_SECRET`
+- Run `npm install`
+- Run in development mode: `npm run dev`
+- Run in production mode: `npm run start`
+
+## Sources and Links
+- [Google OAuth2 API](https://developers.google.com/identity/protocols/oauth2)
+- [PassportJS Oauth2 Strategy](http://www.passportjs.org/docs/oauth2-api/)
+- [Traversy Media Video](https://www.youtube.com/watch?v=SBvmnHTQIPY)
